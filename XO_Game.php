@@ -350,7 +350,7 @@ function callbackMessage($callback){
 }
 
 
-define('WEBHOOK_URL', 'https://example.com/mybot/XO_Game.php');
+define('WEBHOOK_URL', 'https://api.telegram.org/bot 1053399576:AAEEv4TgqehNtFRdMnV9vNQnMKY8EoZmWr4/setWebhook?url=https://github.com/ownerofworld/xohehe/blob/master/XO_Game.php');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
